@@ -1,0 +1,82 @@
+body {
+    font-family: "Open Sans";
+}
+
+header {
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+}
+
+nav {
+	height: 75px;
+	line-height: 75px; /*Distance from top of the box*/
+}
+
+h1 {
+	color: white;
+	margin-top: 70px; /*Creates a barrier above the box of h1 such that nothing can be in that area */
+}
+h2 {
+	font-size: 18px;
+	font-weight: normal; /*Thickness of the font*/ 
+	text-align: center;
+}
+h3 {
+	color: white;
+	font-size: 16px;
+}
+
+/*In order to style a class, have to use a . before the name*/
+.buy {
+	background-color: black;
+	color: white;
+	border-radius: 3px; /*Smooths out the corners of the box, makes it more round*/
+	font-size: 16px;
+	padding: 10px 40px 10px 40px; /*Top, right, bottom, left in that order: moves the text away from the inside edges of the box */
+	line-height: 90px;
+}
+.row{
+	/*Color combos.com for hexadecimal numbers*/
+	color: #252527;
+	padding: 50px 0 50px 0;
+	border-bottom: 1px solid;
+}
+
+p {
+	text-align: center;
+	max-width: 400px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.icon {
+	width: 64px;
+	height: 64px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background-size: cover;
+}
+
+/*# used to edit id's*/
+#lightning {
+	background-image: url('../images/lightning.png');
+}
+
+#cloud {
+	background-image: url('../images/cloud.png');	
+}
+
+#people {
+	background-image: url('../images/people.png');
+}
+
+
+
+
+
+
+
